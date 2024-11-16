@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site interativo e dinâmico com animações e navegação moderna.">
+  <title>Site Interativo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Interativo Site</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">Sobre</a></li>
+        <li><a href="#services" class="nav-link">Serviços</a></li>
+        <li><a href="#contact" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home">
+    <div class="content">
+      <h2>Bem-vindo ao nosso Site!</h2>
+      <p>Explore nosso site para descobrir mais sobre nossos serviços e o que podemos oferecer para você.</p>
+      <a href="#services" class="btn">Explore Nossos Serviços</a>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="content">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma empresa focada em soluções digitais inovadoras. Nossa missão é transformar ideias criativas em resultados concretos.</p>
+      <div class="team">
+        <div class="team-member">
+          <img src="images/image1.jpg" alt="Membro 1">
+          <p>João Silva - CEO</p>
+        </div>
+        <div class="team-member">
+          <img src="images/image2.jpg" alt="Membro 2">
+          <p>Maria Oliveira - Designer</p>
+        </div>
+        <div class="team-member">
+          <img src="images/image3.jpg" alt="Membro 3">
+          <p>Carlos Pereira - Desenvolvedor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section services">
+    <h2>Serviços</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <h3>Desenvolvimento Web</h3>
+        <p>Construímos sites e aplicativos modernos e responsivos.</p>
+      </div>
+      <div class="service-card">
+        <h3>Design Gráfico</h3>
+        <p>Criação de interfaces e experiências visuais únicas.</p>
+      </div>
+      <div class="service-card">
+        <h3>Consultoria Digital</h3>
+        <p>Ajudamos você a alcançar os melhores resultados online.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contato</h2>
+    <p>Entre em contato para saber mais sobre como podemos ajudar no seu próximo projeto!</p>
+    <form id="contact-form">
+      <input type="text" placeholder="Seu Nome" required>
+      <input type="email" placeholder="Seu Email" required>
+      <textarea placeholder="Sua Mensagem" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Interativo Site - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
